@@ -1,0 +1,1 @@
+Nesta pasta contém a aplicação que receberá os dados já em alto nível para o usuário final.
