@@ -1,5 +1,6 @@
-const mqtt = require('../lib/node_modules/mqtt');
-const client = mqtt.connect('mqtt://192.168.0.11:3000');
+const mqtt = require('mqtt');
+const client = mqtt.connect('mqtt://192.168.0.15:3000');
+//const client = mqtt.connect('mqtt://192.168.56.1:3000');
 
 client.on('connect', () => {
     console.log('connected');
