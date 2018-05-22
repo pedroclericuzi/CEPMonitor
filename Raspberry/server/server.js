@@ -1,6 +1,7 @@
-var mosca = require('../lib/node_modules/mosca');
+var mosca = require('mosca');
 var server = new mosca.Server({
-	host:'192.168.0.11',
+	host:'192.168.0.15',
+	//host:'192.168.56.1',
 	port:3000
 });
 
